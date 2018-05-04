@@ -1,0 +1,47 @@
+#header{
+	font-family: 'Didact Gothic';font-size: 22px;
+	background-color: white;
+	color: #D4B6C0;
+	height: 50px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.elements{
+	cursor: pointer;
+}
+
+.about{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.me{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.portfolio{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.nav-bar {
+	margin-left: auto;
+	margin-right: auto;
+  	width:35%;
+  	height:8px;
+  	border-bottom: 1px solid #D4B6C0;
+}
+
+
+a:link {
+    color: #D4B6C0; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:visited {
+    color: #D4B6C0;
+    background-color: transparent;
+    text-decoration: none;
+}

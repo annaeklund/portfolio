@@ -1,0 +1,66 @@
+#anna{
+ 	width: 100px;
+ 	height: 100px;
+ 	background-image: url('z.png');
+ 	background-size: cover;
+ 	display: block;
+ 	border-radius: 100px;
+ 	-webkit-border-radius: 100px;
+ 	-moz-border-radius: 100px;
+ 	position: relative;
+ 	display: inline-block;
+}
+
+.github{
+	background-image: url(1.png);
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.mail{
+	margin-left: 2px;
+	margin-right: 2px;
+	background-image: url(mail.png);
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+}
+
+.to-top{
+	color: #6AA7C6;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position:relative;
+	border-color:#6AA7C6;
+	text-decoration:none;
+	transition:all .3s ease-out;
+}
+.to-top:before{
+	content:'▲';
+	font-size:.9em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em #6AA7C6;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.to-top:hover{
+	color: #D4B6C0;
+	border-color: #D4B6C0;
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
+}

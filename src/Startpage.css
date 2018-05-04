@@ -1,0 +1,9 @@
+.body{
+	font-family: 'Didact Gothic';
+	font-size: 18px;
+	color: #D4B6C0;
+	font-weight: bold;
+	background-image: url(cherry.jpg);
+	background-size: cover;
+	height: 500px;
+}
