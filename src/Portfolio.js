@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-grid-system';
 // import Footer from './Footer';
 import Header from './Header';
 import Footer from './Footer';
+import DM2601 from './DM2601';
 import { Link } from 'react-router-dom';
 
 
@@ -22,18 +23,18 @@ class Portfolio extends Component {
 					<Container>
 			          <Row debug>
 			            <Col className="col" xs={6} md={3.6}>
-			              EN BILD
+			              <Link to={"./DM2601"}><img src="../images/mail.png" alt="Image" width="100px" height="100px" /></Link>
 			            </Col>
 			            <Col className="col" xs={6} md={3.6}>
-			              EN TILL
+			              <Link to={"./DM2350"}>DM2350</Link>
 			            </Col>
 			            <Col className="col" xs={6} md={3.6}>
-			              ÄNNU EN
+			              dinnerplanner
 			            </Col>    
 			          </Row><br/><br/>
 			          <Row debug>
 			            <Col className="col" xs={6} md={3.6}>
-			              EN BILD
+			              weather planner 
 			            </Col>
 			            <Col className="col" xs={6} md={3.6}>
 			              EN TIL

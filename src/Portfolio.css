@@ -23,7 +23,7 @@
 
 .background{
 	position: absolute;
-	background-image: url(cloud.JPG);
+	background-image: url(./images/cloud.JPG);
 	background-size: cover;
 	height: 800px;
 	width: 100%;

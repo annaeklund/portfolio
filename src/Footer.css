@@ -1,7 +1,7 @@
 #anna{
  	width: 100px;
  	height: 100px;
- 	background-image: url('z.png');
+ 	background-image: url('./images/z.png');
  	background-size: cover;
  	display: block;
  	border-radius: 100px;
