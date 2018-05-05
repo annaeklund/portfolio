@@ -11,26 +11,9 @@
  	display: inline-block;
 }
 
-.github{
-	background-image: url(1.png);
-	background-size: cover;
-	width: 20px;
-	height: 20px;
-	position: relative;
-	display: inline-block;
-	margin-left: 2px;
-	margin-right: 2px;
-}
-
-.mail{
-	margin-left: 2px;
-	margin-right: 2px;
-	background-image: url(mail.png);
-	background-size: cover;
-	width: 20px;
-	height: 20px;
-	position: relative;
-	display: inline-block;
+.footer-icon {
+	stroke: #D4B6C0;
+	margin: 1em 0.5em;
 }
 
 .to-top{
