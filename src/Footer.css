@@ -17,11 +17,11 @@
 }
 
 .to-top{
-	color: #6AA7C6;
+	color: #D4B6C0;
 	padding-top:1.8em;
 	display:inline-block;/* or block */
 	position:relative;
-	border-color:#6AA7C6;
+	border-color:#D4B6C0;
 	text-decoration:none;
 	transition:all .3s ease-out;
 }
@@ -32,7 +32,7 @@
 	top:0;
 	left:50%;
 	margin-left:-.7em;
-	border:solid .13em #6AA7C6;
+	border:solid .17em #D4B6C0;
 	border-radius:10em;
 	width:1.4em;
 	height:1.4em;
@@ -41,8 +41,8 @@
 	transition:transform .5s ease-in;
 }
 .to-top:hover{
-	color: #D4B6C0;
-	border-color: #D4B6C0;
+	color: grey;
+	border-color: grey;
 }
 .to-top:hover:before{
 	transform: rotate(360deg);
