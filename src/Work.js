@@ -24,7 +24,7 @@ class Portfolio extends Component {
 			          <Row debug>
 			            <Col className="container" xs={6} md={3.6}>
 			            <center>
-			              <img className="image" src={require("./images/DH2642/DH2642react.png")} alt="Image" width="200px" height="200px" />
+			              <img className="image" src={require("./images/DH2642/DP.png")} alt="Image" width="200px" height="200px" />
 			                <div class="middle">
 			                	<Link to="/DH2642react">
 							    <div class="text">DH2642</div>
@@ -35,7 +35,7 @@ class Portfolio extends Component {
 
 			            <Col className="container" xs={6} md={3.6}>
 			            <center>
-			              <img className="image" src={require("./images/DM2350/DM2350.JPG")} alt="Image" width="200px" height="200px" />
+			              <img className="image" src={require("./images/DM2350/DM.png")} alt="Image" width="200px" height="200px" />
 			                <div class="middle">
 			                	<Link to="/DM2350">
 							    <div class="text">DM2350</div>
@@ -45,7 +45,7 @@ class Portfolio extends Component {
 			            </Col>
 			            <Col className="container" xs={6} md={3.6}>
 			            <center>
-			              <img className="image" src={require("./images/DH2642/DH2642vue.png")} alt="Image" width="200px" height="200px" />
+			              <img className="image" src={require("./images/DH2642/vue.png")} alt="Image" width="200px" height="200px" />
 			                <div class="middle">
 			                	<Link to="/DH2642vue">
 							    <div class="text">DH2642</div>
@@ -57,7 +57,7 @@ class Portfolio extends Component {
 			          <Row debug>
 			            <Col className="container" xs={6} md={3.6}>
 			            <center>
-			              <img className="image" src={require("./images/DM2601/DM2601.JPG")} alt="Image" width="300px" height="300px" />
+			              <img className="image" src={require("./images/DM2601/2601.png")} alt="Image" width="300px" height="300px" />
 			                <div class="middle">
 			                	<Link to="/DM2601">
 							    <div class="text">DM2601</div>
