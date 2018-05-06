@@ -14,7 +14,7 @@ class Header extends Component {
 		return (
 			<div id="header">
 				<div className="elements">
-				<span className="me"><a href="/">Me</a></span>
+				<span className="me"><a href="/">Home</a></span>
 				<span className="about"><Scroll type="id" element="anna" offset={-100} >
 					   About 
 				</Scroll></span>
