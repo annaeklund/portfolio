@@ -18,7 +18,9 @@ class DM2601 extends Component {
 		return (
 
 			<div>
+			<h1>DM2601 Media Technology and Interaction Design</h1>
 			DM2601
+			<img src="./images/DM2601.png" alt="Image" width="200px" height="200px"/>
 			</div>
 		);
 	}

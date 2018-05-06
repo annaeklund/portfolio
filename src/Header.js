@@ -18,7 +18,7 @@ class Header extends Component {
 				<span className="about"><Scroll type="id" element="anna" offset={-100} >
 					   About 
 				</Scroll></span>
-				<span className="portfolio"><a href="/portfolio">Portfolio</a></span>
+				<span className="portfolio"><a href="/work">Work</a></span>
 				</div>
 
 				<div class="nav-bar"></div>
