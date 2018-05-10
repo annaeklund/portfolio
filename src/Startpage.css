@@ -1,9 +1,12 @@
 .body{
 	font-family: 'Didact Gothic';
 	font-size: 18px;
-	color: #D4B6C0;
+	color:white;
+	//color: #D4B6C0;
 	font-weight: bold;
-	background-image: url(./images/cherry.jpg);
+	margin-left: 100px;
+	margin-right: 100px;
+	background-image: url(./images/flow.JPG);
 	background-size: cover;
 	height: 500px;
 }
