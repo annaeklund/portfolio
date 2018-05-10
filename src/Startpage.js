@@ -13,7 +13,7 @@ class Startpage extends Component {
 		return (
 			<div>
 			<Header />
-			<div className="body"><br/>TBD</div>
+			<div className="body"></div>
 			<Footer />
 			</div>
 		);

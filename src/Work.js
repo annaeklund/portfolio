@@ -23,56 +23,58 @@ class Portfolio extends Component {
 					<Container>
 			          <Row debug>
 			            <Col className="container" xs={6} md={3.6}>
-			            <center>
-			              <img className="image" src={require("./images/DH2642/DP.png")} alt="Image" width="200px" height="200px" />
-			                <div class="middle">
-			                	<Link to="/DH2642react">
-							    <div class="text">DH2642</div>
-							    </Link>
-							 </div>
-			            </center>
+				            <center>
+					            <Link to="/DH2642react">
+					              	<img className="image" src={require("./images/DH2642/DP.png")} alt="Image" width="200px" height="200px" />
+					                <div class="middle">
+									    <div class="text">DH2642</div>
+									</div>
+								</Link>
+				            </center>
 			            </Col>   
 
 			            <Col className="container" xs={6} md={3.6}>
-			            <center>
-			              <img className="image" src={require("./images/DM2350/DM.png")} alt="Image" width="200px" height="200px" />
-			                <div class="middle">
-			                	<Link to="/DM2350">
-							    <div class="text">DM2350</div>
-							    </Link>
-							 </div>
-						</center>
-			            </Col>
-			            <Col className="container" xs={6} md={3.6}>
-			            <center>
-			              <img className="image" src={require("./images/DH2642/vue.png")} alt="Image" width="200px" height="200px" />
-			                <div class="middle">
-			                	<Link to="/DH2642vue">
-							    <div class="text">DH2642</div>
-							    </Link>
-							 </div>
-			            </center>
-			            </Col>
-			          </Row><br/><br/>
-			          <Row debug>
-			            <Col className="container" xs={6} md={3.6}>
-			            <center>
-			              <img className="image" src={require("./images/DM2601/2601.png")} alt="Image" width="300px" height="300px" />
-			                <div class="middle">
-			                	<Link to="/DM2601">
-							    <div class="text">DM2601</div>
-							    </Link>
-							 </div>
-						</center>
+				            <center>
+					            <Link to="/DM2350">
+					              	<img className="image" src={require("./images/DM2350/DM.png")} alt="Image" width="200px" height="200px" />
+					              	<div class="middle">
+								    	<div class="text">DM2350</div>
+								 	</div>
+								</Link>
+							</center>
 			            </Col>
 
 			            <Col className="container" xs={6} md={3.6}>
-			            <center>
-			              placeholders for more projects
-			              </center>
+				            <center>
+					            <Link to="/DH2642vue">
+					              	<img className="image" src={require("./images/DH2642/vue.png")} alt="Image" width="200px" height="200px" />
+					                <div class="middle">
+					                	<div class="text">DH2642</div>   
+									 </div>
+								</Link>
+				            </center>
+			            </Col>
+			          </Row><br/><br/>
+
+			          <Row debug>
+			            <Col className="container" xs={6} md={3.6}>
+				            <center>
+				            	<Link to="/DM2601">
+				              		<img className="image" src={require("./images/DM2601/2601.png")} alt="Image" width="300px" height="300px" />
+				               		<div class="middle">
+								    	<div class="text">DM2601</div>
+								 	</div>
+								</Link>
+							</center>
+			            </Col>
+
+			            <Col className="container" xs={6} md={3.6}>
+			            	<center>
+			              		placeholders for more projects
+			              	</center>
 			            </Col>
 			            <Col className="container" xs={6} md={3.6}>
-			              placeholders for more projects
+			              	placeholders for more projects
 			            </Col>      
 			          </Row><br/><br/>
 			          <Row debug>

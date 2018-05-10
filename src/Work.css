@@ -57,12 +57,16 @@
 	position: absolute;
 	margin-left: 5%;
 	margin-right: 5%;
-	background-image: url(./images/cloud.JPG);
+	//background-color: #E1F7FE;
+	//background-image: url(./images/IMG_3560.JPG);
+	//background-image: url(./images/cloud2.JPG);
+	background-image: url(./images/DSC_0808.JPG);
 	background-size: cover;
 	height: 800px;
 	width: 90%;
 	z-index: -1;
-  	//filter: blur(3px);
+  	filter: blur(2px);
+  	opacity: 0.3;
 }
 
 .circle{

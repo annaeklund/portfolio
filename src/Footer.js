@@ -30,13 +30,10 @@ class Footer extends Component {
 		    		<a href="mailto:annaeklu@kth.se">
 		    			<Mail className="footer-icon" />
 		    		</a>
-
 			    </center>
-			          		
-			        
-			    <br/><br/>
+			    <br/>
 				<div className="to-top" onClick={this.scrollToTop}>
-					<Scroll type="className" element="elements" offset={-100}>
+					<Scroll type="id" element="header" offset={0}>
 					</Scroll>
 				</div>
 
