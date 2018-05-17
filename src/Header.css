@@ -1,16 +1,22 @@
 #header{
-	margin-top: 20px;
+	margin-top: 0px;
 	background-color: white;
-	font-family: 'Didact Gothic';font-size: 22px;
-	opacity: 0.5;
+	font-family: 'Montserrat';
+	//font-weight: bold;
+	font-size: 18px;
+	opacity: 1;
 	color: #D4B6C0;
-	height: 50px;
+	height: 60px;
 	text-decoration: none;
-	font-weight: bold;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
 }
+
 
 .elements{
 	cursor: pointer;
+	margin-top: 15px;
 }
 
 .about{

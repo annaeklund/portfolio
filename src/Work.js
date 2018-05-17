@@ -68,26 +68,9 @@ class Portfolio extends Component {
 							</center>
 			            </Col>
 
-			            <Col className="container" xs={6} md={3.6}>
-			            	<center>
-			              		placeholders for more projects
-			              	</center>
-			            </Col>
-			            <Col className="container" xs={6} md={3.6}>
-			              	placeholders for more projects
-			            </Col>      
+			            
 			          </Row><br/><br/>
-			          <Row debug>
-			            <Col className="col" xs={6} md={3.6}>
-			              placeholders for more projects
-			            </Col>
-			            <Col className="col" xs={6} md={3.6}>
-			              placeholders for more projects
-			            </Col>
-			            <Col className="col" xs={6} md={3.6}>
-			              placeholders for more projects
-			            </Col>      
-			          </Row>
+
 			          </Container>
 			</div>
 			<Footer />
