@@ -4,6 +4,7 @@ import './Startpage.css';
 import Header from './Header';
 import Footer from './Footer';
 import { Link } from 'react-router-dom';
+import Flow from './images/flow.png';
 
 
 class Startpage extends Component {
@@ -13,7 +14,10 @@ class Startpage extends Component {
 		return (
 			<div>
 			<Header />
-			<div className="body"></div>
+			<div id="bod" className="body">
+				<img src={Flow} className="images" />
+				<div className="content"></div>
+			</div>
 			<Footer />
 			</div>
 		);

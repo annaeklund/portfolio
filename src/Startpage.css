@@ -1,12 +1,26 @@
 .body{
 	font-family: 'Didact Gothic';
 	font-size: 18px;
-	color:white;
+	color:black;
 	//color: #D4B6C0;
 	font-weight: bold;
+	position: relative;
+}
+
+.images{
+	margin-top: 100px;
 	margin-left: 100px;
 	margin-right: 100px;
-	background-image: url(./images/flow.png);
-	background-size: cover;
-	height: 500px;
+	width: 800px;
+	//position: relative;
+}
+
+.content{
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	overflow: scroll;
 }

@@ -9,7 +9,7 @@ import { Github, Mail, Linkedin } from 'react-feather';
 class Footer extends Component {
 	
 	scrollToTop(){
-		var element = document.getElementById("toppic");
+		var element = document.getElementById("bod");
 		element.scrollIntoView({behavior: "smooth"});
 	}
 
